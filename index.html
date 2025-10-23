@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build Forward - Sustainable Urban Furniture from Ocean Waste</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero-bg {
+            background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%);
+        }
+        .video-container {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            padding-top: 56.25%; /* 16:9 Aspect Ratio */
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .process-step {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .process-step:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        .stakeholder-logo {
+            max-height: 60px;
+            filter: grayscale(100%);
+            transition: filter 0.3s ease;
+        }
+        .stakeholder-logo:hover {
+            filter: grayscale(0%);
+        }
+        .process-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <!-- Hero Section -->
+    <header class="hero-bg text-white py-16 px-4">
+        <div class="max-w-6xl mx-auto text-center">
+            <img src="https://i.ibb.co/0jXpJ5t/build-forward-logo.png" alt="Build Forward Logo" class="mx-auto h-24 mb-6">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Sustainable Urban Furniture from Ocean Waste</h1>
+            <p class="text-xl max-w-3xl mx-auto opacity-90">Transforming ocean plastics into functional public furniture</p>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-12">
+        <!-- Project Overview -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold mb-6 text-center">Project Overview</h2>
+            <div class="bg-white p-8 rounded-xl shadow-lg">
+                <p class="text-lg leading-relaxed">
+                    I am Solal Chasques, a 17-year-old high school student passionate about engineering, the environment, and sustainability. 
+                    I launched the <strong>BUILD FORWARD</strong> project — a hands-on initiative that combines technological innovation, 
+                    environmental impact, and community engagement. The project consists of designing and producing real urban furniture 
+                    (benches, tables, seats) using recycled ocean plastics and marine sediments transformed through sustainable engineering processes.
+                </p>
+            </div>
+        </section>
+
+        <!-- Project Objective -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold mb-6 text-center">Project Objective</h2>
+            <div class="bg-white p-8 rounded-xl shadow-lg">
+                <p class="text-lg leading-relaxed mb-6">
+                    The goal is to manufacture real public furniture — such as benches, tables, and seating — using recycled ocean plastics 
+                    and marine sediments processed through environmentally responsible engineering. Each piece is conceived not only as 
+                    functional infrastructure, but as a tool for raising awareness about ocean health, circular economy solutions, and sustainable design.
+                </p>
+                <div class="mt-8">
+                    <img src="https://i.ibb.co/0jXpJ5t/mobilier-recycle.png" alt="Recycled furniture prototypes" class="w-full max-w-2xl mx-auto rounded-lg shadow-md">
+                </div>
+            </div>
+        </section>
+
+        <!-- Engineering Process -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold mb-6 text-center">Engineering Process</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="process-step bg-white p-6 rounded-xl shadow-md border border-gray-100">
+                    <div class="process-icon">
+                        <i class="fas fa-water text-white text-2xl"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Collection of Ocean Plastics</h3>
+                    <p>Partner with coastal communities and organizations like Plastic Odyssey to collect plastic waste from oceans and shorelines.</p>
+                </div>
+                
+                <div class="process-step bg-white p-6 rounded-xl shadow-md border border-gray-100">
+                    <div class="process-icon">
+                        <i class="fas fa-cut text-white text-2xl"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Clean and Prepare</h3>
+                    <ul class="list-disc pl-5 space-y-1">
+                        <li>Cut into pieces consistent with grinder size</li>
+                        <li>Grind the material to uniform particle size</li>
+                        <li>Control humidity levels</li>
+                        <li>Use incubator or desiccator to dry material</li>
+                    </ul>
+                </div>
+                
+                <div class="process-step bg-white p-6 rounded-xl shadow-md border border-gray-100">
+                    <div class="process-icon">
+                        <i class="fas fa-fire text-white text-2xl"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Hot/Cold Pressing</h3>
+                    <ul class="list-disc pl-5 space-y-1">
+                        <li>Hot press: Place in oven for 1-2 hours, then cool</li>
+                        <li>Cold press: Alternative depending on material properties</li>
+                    </ul>
+                </div>
+                
+                <div class="process-step bg-white p-6 rounded-xl shadow-md border border-gray-100">
+                    <div class="process-icon">
+                        <i class="fas fa-cube text-white text-2xl"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Molding Process</h3>
+                    <ul class="list-disc pl-5 space-y-1">
+                        <li>Use generic mold to shape material</li>
+                        <li>Extrusion to fill molds</li>
+                        <li>Injection molding as alternative forming method</li>
+                    </ul>
+                </div>
+                
+                <div class="process-step bg-white p-6 rounded-xl shadow-md border border-gray-100">
+                    <div class="process-icon">
+                        <i class="fas fa-seedling text-white text-2xl"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Processing Marine Sediments</h3>
+                    <p>In collaboration with Gwilen, utilize mineral-based materials derived from marine sediments as sustainable alternatives.</p>
+                </div>
+                
+                <div class="process-step bg-white p-6 rounded-xl shadow-md border border-gray-100">
+                    <div class="process-icon">
+                        <i class="fas fa-city text-white text-2xl"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Installation and Awareness</h3>
+                    <p>Furniture is installed in public spaces with informative labels explaining materials and origins.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Videos Section -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold mb-6 text-center">Videos</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="video-container rounded-xl overflow-hidden shadow-lg">
+                    <iframe src="https://www.youtube.com/embed/89X4gJi37j4" 
+                            title="Build Forward Project Video" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen></iframe>
+                </div>
+                <div class="video-container rounded-xl overflow-hidden shadow-lg">
+                    <iframe src="https://www.youtube.com/embed/sz7NFwORIGo" 
+                            title="Ocean Plastic Recycling Process" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Waves of Change Section -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold mb-6 text-center">Waves of Change</h2>
+            <div class="bg-gradient-to-r from-blue-50 to-cyan-50 p-8 rounded-xl shadow-lg border border-blue-100">
+                <div class="flex flex-col md:flex-row items-center gap-6">
+                    <div class="flex-1">
+                        <p class="text-lg leading-relaxed mb-4">
+                            Build Forward project has been accepted into the Young Talent Program of the NGO Waves of Change 
+                            (Global Youth Coalition against Plastic Pollution), which brings together cities, researchers, and young innovators 
+                            to address coastal sustainability challenges.
+                        </p>
+                        <p class="text-lg leading-relaxed">
+                            As part of this program, I have been invited to participate in the United Nations Environment Assembly (UNEA) 
+                            in Nairobi in December 2025. Joining Waves of Change adds a new dimension and dynamic to the Build Forward project.
+                        </p>
+                    </div>
+                    <div class="flex justify-center">
+                        <img src="https://i.ibb.co/0jXpJ5t/logo-waves-of-change.png" alt="Waves of Change Logo" class="h-24">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Impact and Educational Component -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold mb-6 text-center">Impact and Educational Component</h2>
+            <div class="bg-white p-8 rounded-xl shadow-lg">
+                <p class="text-lg leading-relaxed mb-4">
+                    Build Forward also includes an educational component: each furniture item will carry an informative label 
+                    explaining its materials and origins. In addition, I will host sustainability workshops and presentations in schools, 
+                    as well as in additional municipal offices, empowering younger generations to better understand and act on environmental issues. 
+                    The initiative is part of broader efforts supported by UNESCO ASPnet, aiming to link youth, innovation, and marine sustainability 
+                    through field-based learning.
+                </p>
+                <p class="text-lg leading-relaxed">
+                    This educational outreach helps create awareness about ocean health, plastic pollution, and sustainable design principles, 
+                    inspiring the next generation of environmental stewards.
+                </p>
+            </div>
+        </section>
+
+        <!-- Stakeholders Section -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold mb-6 text-center">Stakeholders</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-100 text-center">
+                    <img src="https://i.ibb.co/0jXpJ5t/logo-earth-protectors.png" alt="Earth Protectors Logo" class="stakeholder-logo mx-auto mb-4">
+                    <h3 class="font-bold text-lg">Earth Protectors</h3>
+                    <p class="text-gray-600">Inspirational media foundation</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-100 text-center">
+                    <img src="https://i.ibb.co/0jXpJ5t/logo-plastic-odyssey.png" alt="Plastic Odyssey Logo" class="stakeholder-logo mx-auto mb-4">
+                    <h3 class="font-bold text-lg">Plastic Odyssey</h3>
+                    <p class="text-gray-600">Supplier of recycled ocean plastic</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-100 text-center">
+                    <img src="https://i.ibb.co/0jXpJ5t/logo-mairie-hossegor.png" alt="City of Hossegor Logo" class="stakeholder-logo mx-auto mb-4">
+                    <h3 class="font-bold text-lg">City of Hossegor</h3>
+                    <p class="text-gray-600">Municipal pilot site</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer with Thank You Section -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-6 text-center">Acknowledgments</h2>
+            <p class="text-xl text-center mb-8">
+                I would like to warmly thank:
+            </p>
+            <div class="space-y-4 max-w-4xl mx-auto">
+                <p class="text-lg">Anne de Carbuccia, author and director of the documentary Earth Protectors, whom I had the privilege to interview and later present her film in schools.</p>
+                <p class="text-lg">Benoît Blancher, CEO of Plastic Odyssey Factories, for his help with manufacturing and shipping.</p>
+                <p class="text-lg">Christophe Vignaud, Mayor of Soorts-Hossegor, for welcoming me, listening, and encouraging my project.</p>
+                <p class="text-lg">Michel Villeger, Deputy Mayor in charge of environmental and ecological affairs, for his support and for commissioning recycled furniture.</p>
+                <p class="text-lg">Minh Trinh, Head of Strategy & Finance at Waves of Change</p>
+                <p class="text-lg">Nicolas Occhiminuti, CEO at NextWave & Waves of Change</p>
+                <p class="text-lg">Simon Bernard, CEO & Co-Founder of Plastic Odyssey, for his trust</p>
+            </div>
+            
+            <div class="flex justify-center mt-10 space-x-8">
+                <img src="https://i.ibb.co/0jXpJ5t/logo-earth-protectors.png" alt="Earth Protectors Logo" class="stakeholder-logo h-16">
+                <img src="https://i.ibb.co/0jXpJ5t/logo-plastic-odyssey.png" alt="Plastic Odyssey Logo" class="stakeholder-logo h-16">
+                <img src="https://i.ibb.co/0jXpJ5t/logo-mairie-hossegor.png" alt="City of Hossegor Logo" class="stakeholder-logo h-16">
+            </div>
+            
+            <div class="mt-12 pt-8 border-t border-gray-700 text-center">
+                <p class="text-gray-400">© 2025 Build Forward. All rights reserved.</p>
+                <p class="text-gray-400 mt-2">Designed to inspire sustainable innovation</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add animation to process steps on scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = 1;
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.process-step').forEach(step => {
+            step.style.opacity = 0;
+            step.style.transform = 'translateY(20px)';
+            step.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+            observer.observe(step);
+        });
+    </script>
+</body>
+</html>
